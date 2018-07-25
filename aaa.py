@@ -8,6 +8,12 @@
 # print(id(a))
 
 # 
-c=input("enter your age:")
-d=c-10
-print(d)
+# c=input("enter your age:")
+# d=c-10
+# print(d)
+
+a=int(input("enter a number:"))
+if(a%2==0):
+	print("a is not odd")
+else:
+	print("a is odd")
