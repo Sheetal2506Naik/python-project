@@ -21,9 +21,9 @@
 a=int(input("enter the number:"))
 def check_odd(a):
 	if(a%2==0):
-		return False
+		print("a is even")
 	else :
-		return True
+		print("a is odd")
 
-print(check_odd(a))		
+(check_odd(a))		
 
