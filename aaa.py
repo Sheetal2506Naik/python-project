@@ -18,12 +18,18 @@
 # else:
 # 	print("a is odd")
 
-a=int(input("enter the number:"))
-def check_odd(a):
-	if(a%2==0):
-		print("a is even")
-	else :
-		print("a is odd")
+# a=int(input("enter the number:"))
+# def check_odd(a):
+# 	if(a%2==0):
+# 		print("a is even")
+# 	else :
+# 		print("a is odd")
 
-(check_odd(a))		
+# (check_odd(a))		
 
+
+a=float(input("enter the us dollars u want to convert"))
+b=float(input("current rate of us dollar to indian currency"))
+print(b)
+c=a*b
+print(c)
